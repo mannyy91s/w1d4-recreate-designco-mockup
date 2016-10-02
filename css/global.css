@@ -4,6 +4,9 @@
 img{
     width: 100%;
 }
+#body{
+    width:96vw
+}
 .banner{
     width: 100%;
     height: 100px;
@@ -11,7 +14,7 @@ img{
     position: fixed;
 }
 #red-line{
-    width: 960px;
+    width: 70vw;
     height: 4px;
     background-color: red;
     margin: 0 auto;
@@ -25,6 +28,12 @@ img{
     margin-right: 305px;
     margin-top: 27px;
     background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.search:hover{
+    transition: 0.5s ease;
+    transform: rotate(360deg) scale(1.5);;
 }
 .container{
     font-size: 30px;
@@ -40,6 +49,14 @@ img{
 }
 p a{
     color: #4a4a4a;
+}
+.text a:hover{
+    margin-left: 20px;
+    transition: .9s ease;
+    border-radius: 5px 10px 5px 10px;
+    border: 1px solid grey;
+    background-color: red;
+    color: white;
 }
 .red-text a{
     color: red;
@@ -110,6 +127,10 @@ h1{
 .block2b{
     flex: 2;
 }
+.hover:hover{
+    transform: scale(1.5);
+    transition: .7s ease;
+}
 .bottom-section{
     width: 920px;
     justify-content: center;
@@ -122,6 +143,9 @@ h1{
     margin-top: -18px;
 }
 .bottom-text1 h3{
+    color: red;
+}
+p a:hover{
     color: red;
 }
 .bottom-text2 {
